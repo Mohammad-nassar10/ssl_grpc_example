@@ -15,7 +15,7 @@ class ServerServicer(service_pb2_grpc.ServerServicer):
 
 def main():
     port = '8080'
-
+    print("gg *****")
     with open('tls/tls.key', 'rb') as f:
         private_key = f.read()
     with open('tls/tls.crt', 'rb') as f:
